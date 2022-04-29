@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard&display=swap');
+body{
+  background: url('https://wallpaperaccess.com/full/1773008.png') center / cover no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  font-family: 'Coustard', serif;
+}
+.container{
+  position: relative;
+  width:85%;
+  margin: 0 auto;
+}
+.wrapper{
+  font-family: 'Coustard', serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2em;
+  gap: 20px;
+}
+.card{
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 1em ;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  box-shadow: 0 0 5px white;
+  border-radius: 5px ;
+}
+.card-header{
+  padding-bottom: 1em;
+  cursor: pointer;
+}
+.card-image{
+  width: 250px;
+  height: 200px;
+  border-radius: 5px ;
+}
+.buttons{
+  width: 100%;
+  padding-top: 1em;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.prev , .next{
+  position: fixed;
+  bottom: 1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  outline: none;
+  border: 3px solid rgb(206, 203, 203);
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 20px;
+}
+.prev{
+  left: 1rem;
+}
+.prev{
+
+}
+.next{
+  right: 1rem;
+}
+.prev:hover , .next:hover{
+  color: black;
+  border: 3px solid rgb(119, 115, 115);
+  background-color: white;
+}
+.btn-submit{
+  margin-top: 10px;
+  width: 100%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+  border: 3px solid rgb(10, 10, 10);
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 20px;
+}
+.btn-submit:hover{
+  color: white;
+  background-color: black;
+}
+.back{  
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  outline: none;
+  border: 3px solid rgb(206, 203, 203);
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 20px; 
+}
+.back:hover{
+  color: black;
+  background-color: white;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about_wrapper{
+  height: 40vh;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 3em;
+  width: 50%;
+  margin-top: 10em;
+  background-color: white;
+}
+.about_wrapper h1{
+  color: black;
+  padding-bottom: 1em;
+}
+.about_wrapper h3{
+  color: black;
+  padding-bottom: 5px;
+}
+.change{
+  color: wheat;
+  right: 3em;
+  top: 3em;
+  position: fixed;
+  display: flex;
+  justify-content: end;
+}
